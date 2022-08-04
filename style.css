@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header
+{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/stok.jpg);
+        background-position: center;
+        background-size:cover;
+        position: relative;
+}
+
+nav
+{
+    display:flex;
+    padding: 1% 3%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav img
+{
+    width: 125px;
+}
+
+.nav-links{
+    padding: 10px 10px;
+    text-align:right;
+}
+.nav-links ul li
+{
+    list-style-type: none;
+    display:inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500px;
+}
+
+
+
+.nav-links ul li::after
+{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:chocolate;
+    display: block;
+    margin:auto; 
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box
+{
+    position: absolute; 
+    color:#fff;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+}
+
+.text-box h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-box pre
+{
+    margin: 10px 0 40px;
+    font-size: 16px;
+}
+
+.button
+{
+    display:inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 34px;
+    position:relative;
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.button:hover
+{
+    background-color: #fff;
+    color: black;   
+}
+#ab
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    background-color: rgb(85, 85, 85);
+    color: bisque;
+}
+.About
+{
+    opacity: 0.85;
+    display: inline-block;
+    padding: 5pc 5pc;
+}
+.WE
+{
+    display:inline-block;   
+    font-size: 20px;
+    background-color: #dddddd;
+    color: #535353;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.points
+{
+    padding: 0.32pc 0.4pc;
+    padding-left: 5pc;
+    font-size: 26px;
+    text-align:justify;
+    display:inline-block;   
+    background-color: #dddddd;
+    color: #535353;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.why
+{
+    padding: 0.32pc 0.4pc;
+    padding-left: 5pc;
+    font-size: 26px;
+    text-align:justify;
+    display:inline-block;   
+    background-color: #dddddd;
+    color: #535353;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.br
+{
+    position: relative;
+    bottom:8px;
+    right: 16px;
+}
+
+#Pro
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    background-color: rgb(85, 85, 85);
+    color: bisque;
+}
+
